@@ -5,3 +5,5 @@
 ------
 [XML PHP Parse error: syntax error, unexpected $variable](https://github.com/jhass/nextcloud-keeweb/issues/6)
 ------
+[FinalizerReference OOM](https://stackoverflow.com/questions/23652549/clueless-about-a-possible-android-memory-leak)
+------
