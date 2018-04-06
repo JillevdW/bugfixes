@@ -23,3 +23,10 @@ Basically the documentation :)
 When we need to start all over from scratch.
 
 Workflow for development is like this; create a new plugin, add it to the folder in the cordova project, then add the ios platform to the project. If this succeeds we succeeded in adding the plugin. Now we build the project once, from there we can use Xcode to edit our files. Building still has to be done with ***cordova build ios***. We can then run the app from Xcode to see the logs in there.
+
+
+
+## Laravel bugs
+
+[Doctrine issue](https://github.com/doctrine/dbal/issues/2848)
+This is important for when the error `SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class` appears. This error breaks connection with the Database and thus is often observed when trying to login. Solution has to do with either updating PHP-FPM or downgrading the doctrine/dbal dependency. This bug is often caused when using `composer update` instead of composer require/install.
