@@ -7,6 +7,8 @@
 ------
 [FinalizerReference OOM](https://stackoverflow.com/questions/23652549/clueless-about-a-possible-android-memory-leak)
 ------
+[Missing CFBundleIconName or lots of missing resources with upload to iTunes Connect.](https://stackoverflow.com/questions/46216718/missing-cfbundleiconname-in-xcode9-ios11-app-release)
+------
 
 
 
