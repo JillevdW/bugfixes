@@ -35,10 +35,9 @@ This is important for when the error `SQLSTATE[HY000]: General error: PDO::ATTR_
 
 
 
+## Nativescript bugs
 
-
-
-
+More javascript related than anything, but Arrays are _reference types_, not _value types_ like in Swift. When mutating an array somewhere (say, with .shift()) you _will_ alter the original.
 
 
 ## Swift related error info:
