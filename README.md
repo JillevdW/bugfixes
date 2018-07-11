@@ -39,6 +39,15 @@ This is important for when the error `SQLSTATE[HY000]: General error: PDO::ATTR_
 
 More javascript related than anything, but Arrays are _reference types_, not _value types_ like in Swift. When mutating an array somewhere (say, with .shift()) you _will_ alter the original.
 
+When encountering this error:
+`View not added to this instance. View: CommentNode(377) CurrentParent: undefined ExpectedParent: ScrollView(1066)`
+or in general the sentence `View not added to this instance` this can be caused by an empty ng-template being loaded. In one case it happened with this code:
+
+```
+<ng-template #loading>
+</ng-template>
+```
+When we add an empty view object between that, so for example `<Label text=""></Label>`, the error is resolved.
 
 ## Swift related error info:
 
