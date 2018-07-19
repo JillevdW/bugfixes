@@ -49,6 +49,12 @@ or in general the sentence `View not added to this instance` this can be caused 
 ```
 When we add an empty view object between that, so for example `<Label text=""></Label>`, the error is resolved.
 
+## React native bugs
+
+build: react-native run-ios --configuration release
+Xcode 10 libfishhook.a cannot be found
+https://github.com/facebook/react-native/issues/19569
+
 ## Swift related error info:
 
 List of NSURLConnection errors.
