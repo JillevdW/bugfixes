@@ -52,8 +52,8 @@ When we add an empty view object between that, so for example `<Label text=""></
 ## React native bugs
 
 build: react-native run-ios --configuration release
-Xcode 10 libfishhook.a cannot be found
-https://github.com/facebook/react-native/issues/19569
+
+[Xcode 10 libfishhook.a cannot be found](https://github.com/facebook/react-native/issues/19569)
 
 ## Swift related error info:
 
