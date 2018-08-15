@@ -9,6 +9,8 @@
 ------
 [Missing CFBundleIconName or lots of missing resources with upload to iTunes Connect.](https://stackoverflow.com/questions/46216718/missing-cfbundleiconname-in-xcode9-ios11-app-release)
 ------
+[RecyclerView with EditText views shifting around](https://stackoverflow.com/questions/31844373/saving-edittext-content-in-recyclerview)
+------
 
 
 
