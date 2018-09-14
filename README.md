@@ -60,6 +60,8 @@ build: react-native run-ios --configuration release
 ## Put an old Android SDK Back
 You will need to take the SDK, decompile it, change stuff and then recompile it. 
 [This link will save your life.](https://gist.github.com/benvium/5923d50c30ab7c7df0f3)
+Then, when you're at the point of signing, instead use this line:
+`jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore my_application.apk alias_name`
 
 ## Swift related error info:
 
