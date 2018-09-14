@@ -57,6 +57,10 @@ build: react-native run-ios --configuration release
 
 [Xcode 10 libfishhook.a cannot be found](https://github.com/facebook/react-native/issues/19569)
 
+## Put an old Android SDK Back
+You will need to take the SDK, decompile it, change stuff and then recompile it. 
+[This link will save your life.](https://gist.github.com/benvium/5923d50c30ab7c7df0f3)
+
 ## Swift related error info:
 
 List of NSURLConnection errors.
